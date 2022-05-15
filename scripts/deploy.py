@@ -6,9 +6,7 @@ def deploy_simple_storage():
     # pass
     # print(account)
     # account = accounts.load("ArnaudsLaboratory")
-    account = accounts.add(config["wallets"]["from_key"])
-    print(account)
+    # account = accounts.add(config["wallets"]["from_key"])
 
-
-def main():
-    deploy_simple_storage()
+    def main():
+        deploy_simple_storage()

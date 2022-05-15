@@ -1,5 +1,5 @@
 dotenv: .env
 # This tells Brownie whenever you grab the environment variables from the .env file
 wallets:
-from_key:  ${PRIVATE_KEY}
+from_key: ${PRIVATE_KEY}
         # Automatically gets transformed into environtment variables when you surround a string with curly brackets
